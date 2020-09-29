@@ -8,8 +8,9 @@ class EmailParser
   def parse 
     csv_emails.split.do |address|
       address.split(",")
-    end
+      end
     flatten.uniq
+    end
   end
   
 end
