@@ -1,5 +1,4 @@
 class EmailParser
-  
-  def initialize
+  attr_accessor
   
 end
