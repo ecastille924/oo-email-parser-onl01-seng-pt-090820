@@ -6,7 +6,7 @@ class EmailParser
   end
  
   def parse
-    email_addresses.
+    email_addresses.(/,?\s/)
   end
   
 end
