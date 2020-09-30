@@ -6,7 +6,7 @@ class EmailParser
   end
  
   def parse
-    @email_addresses.parse
+    @email_addresses.split(\n)
   end
   
 end
